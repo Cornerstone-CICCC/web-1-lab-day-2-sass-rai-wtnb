@@ -1,0 +1,10 @@
+@use "variables" as *;
+
+footer {
+  background-color: $white;
+  padding: $frame-padding;
+
+  p {
+    font-size: $base-font-size;
+  }
+}

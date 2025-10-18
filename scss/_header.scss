@@ -1,0 +1,29 @@
+@use "sass:color";
+@use "variables" as *;
+
+header {
+  background-color: $header-yellow;
+  padding: $frame-padding;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-size: 1.5rem;
+
+  .logo {
+    padding-bottom: $gap-small;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: $gap-small;
+
+      li {
+        a {
+          color: $link-blue;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
